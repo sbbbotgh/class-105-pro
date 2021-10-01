@@ -43,7 +43,8 @@ hr{
 }
 
 
-#camera{
+#camera,
+#result{
     width: 350px;
     height: 300px;
     animation:infinite cooler 5s;
