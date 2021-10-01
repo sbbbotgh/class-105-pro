@@ -1,0 +1,79 @@
+body{
+    color: whitesmoke;
+    background-color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #fe8c00 0%, #f83600  51%, #fe8c00  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+
+.heading{
+    margin-top: 50px;
+    width: 80%;
+    font-size: 22px;
+}
+
+hr{
+    background-color: #fff;
+}
+
+.name_object,
+.object{
+    font-size: 20px;
+    color: #fe8c00;
+}
+
+
+#camera{
+    width: 350px;
+    height: 300px;
+    animation:infinite cooler 5s;
+    border: 2px solid #24dd8b;
+}
+
+@keyframes cooler{
+    25%{
+        border-top-color:  #f83600;
+    }
+    50%{
+        border-right-color:  #f83600;
+    }
+    75%{
+        border-bottom-color:  #f83600;
+    }
+    100%{
+        border-left-color:  #f83600;
+    }
+}
+
+
+#step_go,
+#or_label,
+#step_back,
+#Object_box,
+#back_button,
+#Accuracy_box
+{
+
+    visibility: hidden;
+
+}
